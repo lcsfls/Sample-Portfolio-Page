@@ -1,0 +1,11 @@
+        <!--jscript to pull img from folder. >>>   <script src="../jscript/gallery.js"></script> -->
+        <!--SEE jscript to pull instagram feed  http://instafeedjs.com/
+        <script type="text/javascript" src="/jscript/instafeed.js"></script>
+        <script type="text/javascript">
+            var feed = new Instafeed({
+                get: 'tagged',
+                tagName: 'awesome',
+                clientId: 'YOUR_CLIENT_ID'
+            });
+            feed.run();
+        </script>-->

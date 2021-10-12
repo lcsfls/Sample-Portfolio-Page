@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+@keyframes loadpage {
+    from {
+        opacity: 0;
+        transform: rotatex(-10deg);
+    }
+    to {
+        opacity: 1;
+        transform: rotatex(0);
+    }
+}
+body {
+    background-color: white;
+    font-size: 1em;
+    font-family: 'Montserrat', 'Sans-Serif';
+    text-decoration: none;
+    animation: loadpage 0.7s;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+}
+h1 {
+    text-align: center;
+    letter-spacing: .17em;
+}
+p, blockquote {
+    font-size: 0.6em;
+    line-height: 1.6em;
+}
+nav ul {
+    list-style-type: none;
+    display: inline;
+    text-align: center;
+}
+nav li {
+    text-decoration: none;
+    display: inline-block;
+    padding: .75em 5em;
+}
+nav li a {
+    background-color:  rgba(92, 92, 92, 0.562);
+    color: white;
+    letter-spacing: .1em;
+    text-decoration: none;
+    width: 100%;
+    padding: 1em;
+    display: inline-block;
+    border-radius: 55px;
+    text-align: center;
+}
+nav li a:hover {
+    background-color:  rgba(92, 92, 92, 0.774);
+    color: white;
+    transition: 1s;
+}
+.text h2 {
+    margin-top: 8%;
+    text-align: center;
+    letter-spacing: .25em;
+}
+.text p {
+    text-align: justify;
+    font-size: 1em;
+    display: inline-block;
+    margin: 1em 20% 1.5em;
+}
+
+.links {
+    text-align: center;
+}
+
+#fullscreenimage{
+    transition: max-height .5s ease-in-out;
+}
